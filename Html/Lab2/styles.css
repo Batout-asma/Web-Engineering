@@ -32,3 +32,22 @@ h5 {
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
+
+.back-button {
+  display: block;
+  width: 100px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #2e7d32;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.back-button:hover {
+  background-color: #1b5e20;
+  color: white;
+  transform: scale(1.02);
+}

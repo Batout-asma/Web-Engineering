@@ -60,6 +60,21 @@ table.complex-table th {
   color: white;
 }
 
-table.complex-table tr:nth-child(even) {
-  background-color: #c8e6c9;
+.back-button {
+  display: block;
+  width: 100px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #2e7d32;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.back-button:hover {
+  background-color: #1b5e20;
+  color: white;
+  transform: scale(1.02);
 }
