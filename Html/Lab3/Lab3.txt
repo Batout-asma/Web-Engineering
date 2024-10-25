@@ -1,0 +1,5 @@
+Lab 3:
+L'objectif de cette tâche de ce tp est d'apprendre à
+- implémenter une liste et à insérer un tableau.
+- Implémenter une liste imbriquée.
+- Implémenter un tableau complexe.

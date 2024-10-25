@@ -1,0 +1,6 @@
+Lab 2:
+- Appliquer le titre un, le titre trois et le titre 5
+- Ajouter 8 balises Meta différentes 
+- Créer un nouveau fichier CSS et le lier au fichier HTML
+- Créer un nouveau fichier Javascript et le lier au fichier HTML
+- Créer une liste de base avec vos détails éducatifs

@@ -1,0 +1,8 @@
+Lab 1:
+L'objectif de ce tp est d'apprendre à implémenter un lien hypertexte et à insérer une image sur une page Web.
+
+- Créer une nouvelle page HTML
+- Ajouter des paragraphes
+- Faire du contenu du paragraphe en gras, italique et souligné
+- Insérer un lien hypertexte.
+- Insérer une image.

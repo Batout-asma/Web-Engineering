@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 04 - Formulaire</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Lab 04: Création de Formulaire</h1>
+
+    <div class="form-container">
+      <h2 class="form-title">Continental Hotel Reservation Form</h2>
+
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+
+        <label for="email">eMail:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="info@continental.pk"
+          required
+        />
+
+        <label for="mobile">Mobile No:</label>
+        <input
+          type="tel"
+          id="mobile"
+          name="mobile"
+          placeholder="Enter your cell number"
+          required
+        />
+
+        <label for="arrival">Arrival Time:</label>
+        <input type="datetime-local" id="arrival" name="arrival" required />
+
+        <label for="departure">Departure:</label>
+        <input type="date" id="departure" name="departure" required />
+
+        <label>Room Type:</label>
+        <div class="room-options">
+          <input type="radio" id="single" name="room" value="Single" required />
+          <label for="single">Single</label>
+
+          <input type="radio" id="double" name="room" value="Double" required />
+          <label for="double">Double</label>
+
+          <input
+            type="radio"
+            id="suite"
+            name="room"
+            value="Presidential Suite"
+            required
+          />
+          <label for="suite">Presidential Suite</label>
+        </div>
+
+        <label>Preferences:</label>
+        <div class="preferences-options">
+          <input
+            type="checkbox"
+            id="non-smoking"
+            name="preferences"
+            value="Non-Smoking"
+          />
+          <label for="non-smoking">Non-Smoking</label>
+
+          <input
+            type="checkbox"
+            id="internet"
+            name="preferences"
+            value="Internet"
+          />
+          <label for="internet">Internet</label>
+
+          <input
+            type="checkbox"
+            id="mattress"
+            name="preferences"
+            value="Firm Mattress"
+          />
+          <label for="mattress">Firm Mattress</label>
+        </div>
+
+        <label for="payment">Mode of Payment:</label>
+        <select name="payment" id="payment" required>
+          <option value="Cash">Cash</option>
+          <option value="Check">Check</option>
+          <option value="Credit Card">Credit Card</option>
+        </select>
+
+        <button type="submit">Send Data</button>
+      </form>
+    </div>
+  </body>
+</html>
