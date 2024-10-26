@@ -42,7 +42,8 @@ body {
   background-color: #80cbc4;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  border: 1.5px solid #2e7d32;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 .friends h2 {
