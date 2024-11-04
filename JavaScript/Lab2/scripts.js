@@ -1,16 +1,16 @@
 let currentImageIndex = 0;
 const images = [
-  "Web-Engineering.jpg",
-  "Advanced-Database.jpg",
-  "Software-Engineering.jpg",
-  "Embedded-Processors.jpg",
-  "Distributed-Systems.jpg",
-  "Software-Quality.jpg",
+  "./assets/Web-Engineering.jpg",
+  "./assets/Advanced-Database.jpg",
+  "./assets/Software-Engineering.jpg",
+  "./assets/Embedded-Processors.jpg",
+  "./assets/Distributed-Systems.jpg",
+  "./assets/Software-Quality.jpg",
 ];
 const moduleNames = [
   "Web Engineering",
   "Advanced Database",
-  "SoftwareEngineering",
+  "Software Engineering",
   "Embedded Processors",
   "Distributed Systems",
   "Software Quality",
