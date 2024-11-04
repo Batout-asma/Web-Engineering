@@ -26,4 +26,8 @@ $(document).ready(function(){
 
     $("#G-total_lettre").text("Grand Total Rs.")
     $("#G-total_chiffre").text("test")
+
+    $("#Update").click(function(){
+
+    })
 })
