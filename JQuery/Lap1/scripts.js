@@ -37,12 +37,12 @@ $("#Update").click(function(){
     $("#Cost_p3").text(Cost_p3);
 
     var total_chiffre = Cost_p1 + Cost_p2 + Cost_p3;
-    $("#total_chiffre").text(total_chiffre.toFixed(2));
+    $("#total_chiffre").text(total_chiffre);
 
     var gst_chiffre = (total_chiffre*15)/100;
-    $("#gst_chiffre").text(gst_chiffre.toFixed(2));
+    $("#gst_chiffre").text(gst_chiffre);
 
     var G_total_chiffre = total_chiffre + gst_chiffre;
-    $("#G_total_chiffre").text(G_total_chiffre.toFixed(2));
+    $("#G_total_chiffre").text(G_total_chiffre);
 });
 });

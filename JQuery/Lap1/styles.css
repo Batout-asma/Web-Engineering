@@ -1,0 +1,99 @@
+body { 
+  font-family: Arial, sans-serif; 
+  background-color: #e8f5e9; 
+  color: #1b5e20; 
+  text-align: center; 
+} 
+ 
+h1 { 
+  color: #1b5e20; 
+} 
+ 
+p { 
+  font-size: 1rem; 
+  color: #333; 
+} 
+ 
+.billing-container { 
+  background-color: #ffffff; 
+  border: 1px solid #2e7d32; 
+  padding: 20px; 
+  border-radius: 8px; 
+  width: 80%; 
+  max-width: 600px; 
+  margin: 20px auto; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+} 
+ 
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-bottom: 20px; 
+} 
+ 
+td { 
+  border: 1px solid #2e7d32; 
+  padding: 8px; 
+  text-align: center; 
+} 
+ 
+th { 
+  background-color: #2e7d32; 
+  color: #e8f5e9; 
+} 
+ 
+.cost_p1 { 
+  color: #2e7d32; 
+} 
+.cost_p2 { 
+    color: #2e7d32; 
+  } 
+  .cost_p3 { 
+    color: #2e7d32; 
+  } 
+ 
+input[type="number"] { 
+  width: 50px; 
+  padding: 5px; 
+  border-radius: 4px; 
+  border: 1px solid #2e7d32; 
+} 
+ 
+.totals p { 
+  font-weight: bold; 
+  margin: 8px 0; 
+} 
+ 
+button { 
+  background-color: #1b5e20; 
+  color: #e8f5e9; 
+  border: none; 
+  padding: 10px 20px; 
+  font-size: 1rem; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+} 
+ 
+button:hover { 
+  background-color: #2e7d32; 
+} 
+ 
+.back-button { 
+  display: block; 
+  width: 100px; 
+  text-align: center; 
+  margin: 20px auto; 
+  padding: 10px 15px; 
+  font-size: 16px; 
+  background-color: #2e7d32; 
+  color: white; 
+  border-radius: 5px; 
+  text-decoration: none; 
+} 
+ 
+.back-button:hover { 
+  background-color: #1b5e20; 
+  color: white; 
+  transform: scale(1.02); 
+}
