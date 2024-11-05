@@ -31,20 +31,25 @@ function calculateTotals() {
     var Quantity_p3 =$parseFloat(("#Quantity_p3").val());
 
     var Cost_p1 = Prix_unit_p1 * Quantity_p1;
-    $("#Cost_p1").text(Cost_p1);
+
 
     var Cost_p2 = Prix_unit_p2 * Quantity_p2;
-    $("#Cost_p2").text(Cost_p2);
+
 
     var Cost_p3 = Prix_unit_p3 * Quantity_p3;
-    $("#Cost_p3").text(Cost_p3);
+
 
     var total_chiffre = Cost_p1 + Cost_p2 + Cost_p3;
-    $("#total_chiffre").text(total_chiffre);
+
 
     var gst_chiffre = (total_chiffre*15)/100;
-    $("#gst_chiffre").text(gst_chiffre);
+
 
     var G_total_chiffre = total_chiffre + gst_chiffre;
     $("#G_total_chiffre").text(G_total_chiffre);
+    $("#Cost_p1").text(Cost_p1);
+    $("#Cost_p2").text(Cost_p2); 
+    $("#Cost_p3").text(Cost_p3);   
+    $("#total_chiffre").text(total_chiffre);
+    $("#gst_chiffre").text(gst_chiffre);            
 }
