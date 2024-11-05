@@ -18,8 +18,11 @@ $(document).ready(function(){
 
     $("#G_total_lettre").text("Grand Total Rs.")
 
-$("#Update").click(function(){
-    
+    $("#Update").click(function(){
+      calculateTotals();
+    });
+});
+function calculateTotals() {
     var Prix_unit_p1 =parseFloat($("#Prix_unit_p1").text());
     var Prix_unit_p2 =parseFloat($("#Prix_unit_p2").text());
     var Prix_unit_p3 =parseFloat($("#Prix_unit_p3").text());
@@ -44,5 +47,4 @@ $("#Update").click(function(){
 
     var G_total_chiffre = total_chiffre + gst_chiffre;
     $("#G_total_chiffre").text(G_total_chiffre);
-});
-});
+}
