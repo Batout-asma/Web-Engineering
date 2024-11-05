@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 01</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Medical Billing System</h1>
+    <div class="billing-container">
+      <table>
+        <thead>
+          <tr>
+            <th>S.No.</th>
+            <th>Item</th>
+            <th>Unit Cost (Rs.)</th>
+            <th>Quantity</th>
+            <th>Cost (Rs.)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Eritromycin 100 mg</td>
+            <td class="unit-cost">58</td>
+            <td>
+              <input
+                type="number"
+                class="quantity"
+                data-index="0"
+                value="0"
+                min="0"
+              />
+            </td>
+            <td class="cost" id="cost-0">58</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Femamycin 500 mg</td>
+            <td class="unit-cost">46</td>
+            <td>
+              <input
+                type="number"
+                class="quantity"
+                data-index="1"
+                value="0"
+                min="0"
+              />
+            </td>
+            <td class="cost" id="cost-1">92</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Oximycin 2 mg</td>
+            <td class="unit-cost">1090</td>
+            <td>
+              <input
+                type="number"
+                class="quantity"
+                data-index="2"
+                value="0"
+                min="0"
+              />
+            </td>
+            <td class="cost" id="cost-2">3270</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="totals">
+        <p>Total: <span id="total">0</span> Rs.</p>
+        <p>GST at 15%: <span id="gst">0</span> Rs.</p>
+        <p>Grand Total: <span id="grand-total">0.00</span> Rs.</p>
+      </div>
+      <button id="update-grand-total">Update Grand Total</button>
+    </div>
+    <a href="../index.html" class="back-button">Go Back</a>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
