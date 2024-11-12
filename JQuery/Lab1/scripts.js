@@ -9,10 +9,10 @@ $(document).ready(function () {
       total += cost;
     });
 
-    const gst = total * 0.15;
+    const gst = total * 0.15; 
 
     $("#total").text(total.toFixed(2));
-    $("#gst").text(gst.toFixed(2));
+    $("#gst").txext(gst.toFixed(2));
   }
 
   function calculateGrandTotal() {
