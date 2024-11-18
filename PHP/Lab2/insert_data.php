@@ -1,4 +1,3 @@
-
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'];
@@ -7,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $roll_no = $_POST['roll_no'];
     $class = $_POST['class'];
 
-    $servername = "Localhost";
+    $servername = "localhost";
     $username = "root";
     $password = "";
     $dbname = "management";
@@ -25,12 +24,46 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $stmt->close();
     $conn->close();
+?>
 
-    echo "<p>The following data has been inserted into the database:</p>";
-    echo "<p>Name: $name</p>";
-    echo "<p>Father's Name: $father_name</p>";
-    echo "<p>School's Name: $school_name</p>";
-    echo "<p>Roll No: $roll_no</p>";
-    echo "<p>Class: $class</p>";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Data</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class='table-container'>
+        <h2>The following data has been inserted into the database:</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Father's Name</th>
+                <th>School Name</th>
+                <th>Roll No</th>
+                <th>Class</th>
+            </tr>
+            <tr>
+                <td><?php echo $name; ?></td>
+                <td><?php echo $father_name; ?></td>
+                <td><?php echo $school_name; ?></td>
+                <td><?php echo $roll_no; ?></td>
+                <td><?php echo $class; ?></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="button-container">
+        <a href="Lab2.html" class="button">Go Back to the Form</a>
+        <a href="view_records.php" class="button">Check all the Records</a>
+    </div>
+
+</body>
+</html>
+
+<?php
 }
 ?>
