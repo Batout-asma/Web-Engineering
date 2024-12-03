@@ -1,3 +1,3 @@
 <?php
-echo "AJAX : hallo from requestpage.php!";
+echo "AJAX : hallo This is Asma and Samar from PHP file!";
 ?>
